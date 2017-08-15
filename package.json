@@ -1,11 +1,11 @@
 {
   "name": "babel-demo",
   "version": "1.0.0",
+  "scripts": {
+    "build": "babel app.js.es6 --out-file app.js"
+  },
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
