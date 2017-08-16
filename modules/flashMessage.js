@@ -1,4 +1,4 @@
-class FlashMessage {
+export class FlashMessage {
   constructor(message) {
     this.message = message;
   }
@@ -7,6 +7,3 @@ class FlashMessage {
     alert(this.message);
   }
 }
-
-let flash = new FlashMessage("Hello from ES2015");
-flash.display();
