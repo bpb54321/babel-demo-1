@@ -1,4 +1,4 @@
-export default class FlashMessage {
+export class FlashMessage {
   constructor(message) {
     this.message = message;
   }
