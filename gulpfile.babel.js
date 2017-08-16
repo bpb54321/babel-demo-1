@@ -10,7 +10,7 @@ gulp.task('default', () => {
 
   bundler.bundle()
     .on('error', (err) => { console.error(err); })
-    .pipe(source('bundle.js'))
-    .pipe(buffer())
+    .pipe(source('bundle.js')) // Creates a blank file that you will write to
+    .pipe(buffer()) // This is necessary if you want to use other Gulp plugins
     .pipe(gulp.dest('./'));
 });
